@@ -26,15 +26,13 @@ La plataforma conecta estudiantes, empresas y reclutadores a través de matching
 
 ## 🌐 MVP y visualización
 
-El MVP puede visualizarse directamente desde el siguiente enlace:
-
 🔗 **MVP web:**  
 https://www.tmapp.es/
 
-Además, se ha desarrollado una visualización tipo mockup para poder ver la app en distintos dispositivos:
-
 📱 **Mockup responsive:**  
 https://ensoin.com/mockupp/
+
+Se ha desarrollado una web para visualizar la experiencia de la app en distintos dispositivos y facilitar la validación del prototipo.
 
 ---
 
@@ -60,6 +58,30 @@ https://ensoin.com/mockupp/
 | 💬 **Feedback de empresas** | Permite recibir información útil tras una candidatura o interacción profesional |
 | 🤝 **Networking inteligente** | Conecta estudiantes, alumni, empresas y reclutadores según afinidad profesional |
 | 🎮 **Gamificación** | Incorpora progreso, logros y retos para motivar la participación activa |
+
+---
+
+## 📸 Vista del prototipo
+
+| Pantalla 1 | Pantalla 2 |
+|---|---|
+| <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.23.51.png" width="350"/> | <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.08.png" width="350"/> |
+
+| Pantalla 3 | Pantalla 4 |
+|---|---|
+| <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.17.png" width="350"/> | <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.31.png" width="350"/> |
+
+| Pantalla 5 | Pantalla 6 |
+|---|---|
+| <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.39.png" width="350"/> | <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.44.png" width="350"/> |
+
+| Pantalla 7 | Pantalla 8 |
+|---|---|
+| <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.24.53.png" width="350"/> | <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.25.17.png" width="350"/> |
+
+| Pantalla 9 | Pantalla 10 |
+|---|---|
+| <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.25.36.png" width="350"/> | <img src="src/assets/Captura%20de%20pantalla%202026-05-28%20a%20la(s)%2023.25.52.png" width="350"/> |
 
 ---
 
