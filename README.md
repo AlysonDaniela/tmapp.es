@@ -1,77 +1,133 @@
-# The Talent Match
+# 🎯 The Talent Match
 
-**The Talent Match** es un proyecto académico desarrollado por el equipo **Flowly** como Trabajo Fin de Máster. La propuesta consiste en una plataforma digital gamificada de empleabilidad y networking orientada a estudiantes de máster en España, con el objetivo de conectar talento joven con empresas y reclutadores de forma más eficiente, transparente y personalizada.
+**The Talent Match** es una plataforma digital gamificada de empleabilidad y networking, desarrollada por el equipo **Flowly** como parte de un Trabajo Fin de Máster.
 
-## Descripción del proyecto
+El proyecto busca conectar a estudiantes de máster con empresas y reclutadores mediante **matching inteligente**, **perfiles profesionales enriquecidos**, **seguimiento de candidaturas** y experiencias de **networking personalizado**.
 
-El proyecto nace como respuesta a las dificultades que muchos estudiantes de máster encuentran al acceder a oportunidades laborales relevantes, crear una red profesional de valor y recibir feedback durante los procesos de selección.
+---
 
-The Talent Match propone una solución basada en un sistema de matching inteligente, networking profesional y herramientas digitales que permiten mejorar la experiencia de búsqueda de empleo tanto para estudiantes como para empresas.
+## 🚩 Problema
 
-## Objetivo
+Los estudiantes de máster suelen enfrentarse a diferentes barreras al iniciar o impulsar su carrera profesional:
 
-El objetivo principal del proyecto no es desarrollar una aplicación funcional completa, sino **validar una solución digital** mediante un **MVP en forma de prototipo navegable de alta fidelidad**.
+- 🔍 Dificultad para encontrar oportunidades alineadas con su perfil.
+- 🕐 Falta de transparencia en los procesos de selección.
+- 💬 Escaso feedback por parte de empresas y reclutadores.
+- 🤝 Networking limitado o poco estructurado.
+- 📉 Desconexión entre el talento universitario y las necesidades reales del mercado laboral.
 
-Este MVP permite comprobar si la propuesta responde a problemas reales de empleabilidad y networking en estudiantes de máster.
+A su vez, las empresas encuentran dificultades para identificar talento cualificado, motivado y alineado con sus necesidades.
 
-## Funcionalidades principales
+---
 
-- Matching entre estudiantes y empresas.
-- Interfaz tipo swipe para descubrir oportunidades.
-- Perfil profesional enriquecido.
-- Seguimiento de candidaturas.
-- Feedback de empresas y reclutadores.
-- Networking inteligente entre usuarios.
-- Recomendaciones apoyadas en inteligencia artificial.
-- Elementos de gamificación para mejorar la participación.
-- Mayor transparencia en los procesos de selección.
+## 👥 Público objetivo
 
-## Metodología
+The Talent Match está diseñado para tres perfiles principales:
 
-El proyecto combina diferentes enfoques metodológicos:
+### 🎓 Estudiantes de máster
 
-- **Design Thinking**, para comprender las necesidades reales de los usuarios.
-- **Lean Startup**, para formular hipótesis, validar el problema y aprender mediante iteraciones.
-- **Scrumban**, para organizar el trabajo del equipo de forma ágil y flexible.
-- **Enfoque híbrido**, combinando planificación predictiva con ciclos iterativos de validación.
+Buscan mejorar su empleabilidad, descubrir oportunidades profesionales relevantes, construir una red de contactos y recibir acompañamiento durante sus procesos de candidatura.
 
-## Herramientas utilizadas
+### 🏢 Empresas y reclutadores
 
-- Figma
-- Notion
-- Jira / Trello
-- Milanote
-- GitHub
+Necesitan identificar talento joven, acceder a perfiles cualificados y optimizar sus procesos de captación mediante criterios de afinidad profesional.
 
-## MVP
+### 🏫 Universidades y escuelas de negocio
 
-El MVP del proyecto consiste en un **prototipo navegable de alta fidelidad**, diseñado para representar la experiencia principal de usuario y facilitar la validación con potenciales usuarios.
+Quieren mejorar la empleabilidad de sus estudiantes, fortalecer la relación con empresas colaboradoras y ofrecer herramientas digitales de orientación profesional.
 
-El propósito del MVP es:
+---
 
-- Validar el interés de los estudiantes.
-- Evaluar la utilidad percibida de la solución.
-- Recoger feedback temprano.
-- Reducir incertidumbre antes de un posible desarrollo técnico.
-- Comprobar la adecuación entre problema, solución y propuesta de valor.
+## 💡 Solución propuesta
 
-## Público objetivo
+The Talent Match plantea una experiencia digital que combina:
 
-El proyecto está dirigido principalmente a:
+- 🤖 Matching inteligente.
+- 🎮 Gamificación.
+- 🤝 Networking profesional.
+- 📊 Seguimiento de candidaturas.
+- 💬 Feedback entre empresas y estudiantes.
+- 🧠 Recomendaciones personalizadas.
 
-- Estudiantes de máster en España.
-- Empresas interesadas en captar talento joven.
-- Reclutadores y departamentos de recursos humanos.
-- Universidades y escuelas de negocio.
+La plataforma permite que los estudiantes construyan un perfil profesional más completo que un CV tradicional, mientras que las empresas pueden descubrir candidatos con mayor afinidad respecto a sus vacantes, cultura organizativa y necesidades de talento.
 
-## Equipo
+---
+
+## ⚙️ Funcionalidades principales
+
+### 🤖 Matching inteligente
+
+Conecta estudiantes con ofertas, empresas y contactos profesionales en función de su perfil, intereses, competencias, experiencia y objetivos laborales.
+
+### 👤 Perfil profesional enriquecido
+
+Permite mostrar formación, experiencia, habilidades, intereses, proyectos, disponibilidad y preferencias profesionales.
+
+### 🔎 Descubrimiento de oportunidades
+
+Facilita explorar vacantes, empresas, eventos y contactos de forma visual, sencilla y dinámica.
+
+### 📌 Seguimiento de candidaturas
+
+Ofrece un panel para consultar el estado de las aplicaciones y visualizar el avance en cada proceso de selección.
+
+### 💬 Feedback de empresas
+
+Mejora la comunicación entre reclutadores y estudiantes mediante comentarios útiles tras una candidatura o interacción profesional.
+
+### 🤝 Networking inteligente
+
+Facilita conexiones entre estudiantes, alumni, empresas y reclutadores según intereses comunes, sectores profesionales y objetivos de carrera.
+
+### 🎮 Gamificación
+
+Incorpora retos, logros, progreso de perfil y recompensas simbólicas para motivar la participación activa del usuario.
+
+### 🧠 Recomendaciones personalizadas
+
+Sugiere oportunidades, contactos o acciones de mejora en función del comportamiento, perfil e intereses del usuario.
+
+---
+
+## 🧪 MVP
+
+El MVP del proyecto consiste en un **prototipo navegable de alta fidelidad**.
+
+No se trata de una aplicación completamente desarrollada, sino de una representación visual e interactiva de la solución.
+
+Su finalidad es:
+
+- ✅ Validar el interés del público objetivo.
+- ✅ Comprobar el encaje problema-solución.
+- ✅ Recoger feedback temprano.
+- ✅ Reducir incertidumbre antes de un posible desarrollo técnico.
+- ✅ Evaluar la utilidad percibida de la propuesta.
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Validar si **The Talent Match** puede aportar valor real en la mejora de la empleabilidad y el networking de estudiantes de máster, conectando de forma más eficiente el talento universitario con las necesidades del mercado laboral.
+
+---
+
+## 🚀 Estado del proyecto
+
+Actualmente, el proyecto se encuentra en fase de:
+
+- 🧩 Diseño conceptual.
+- 🧪 Validación del MVP.
+- 🎨 Prototipado de alta fidelidad.
+- 📚 Desarrollo académico del Trabajo Fin de Máster.
+
+---
+
+## 👩‍💻 Equipo
 
 Proyecto desarrollado por el equipo **Flowly**.
 
-## Estado del proyecto
+---
 
-Actualmente, el proyecto se encuentra en fase de validación académica y conceptual, centrado en el diseño del MVP, la investigación de usuarios y la definición estratégica de la propuesta de valor.
+## 📌 Descripción breve
 
-## Licencia
-
-Este repositorio se ha creado con fines académicos como parte del Trabajo Fin de Máster.
+> Plataforma gamificada de empleabilidad y networking que conecta estudiantes de máster con empresas mediante matching inteligente, perfiles enriquecidos y seguimiento de candidaturas.
