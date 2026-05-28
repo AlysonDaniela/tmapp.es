@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/src/assets/favicon.png" />
+    <link rel="apple-touch-icon" href="/src/assets/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#233160" />
+
+    <title>Talent Match — Conecta talento y oportunidades</title>
+
+    <meta name="description" content="Talent Match: la app tipo Tinder para estudiantes de máster. Encuentra prácticas, networking y tu primer empleo con un swipe." />
+    <meta property="og:title" content="Talent Match — Networking y prácticas para estudiantes de máster" />
+    <meta property="og:description" content="Swipe, match y conecta con empresas y otros estudiantes. Tu próximo paso profesional empieza aquí." />
+    <meta property="og:type" content="website" />
+
+    <link rel="canonical" href="/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <script type="module" crossorigin src="/assets/index-B5sCg2SA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D6hscdd3.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      (function () {
+        let isSyncing = false;
+        let lastSent = 0;
+        let lastUrl = location.href;
+
+        function getScrollPercent() {
+          const doc = document.documentElement;
+          const maxScroll = doc.scrollHeight - window.innerHeight;
+
+          if (maxScroll <= 0) return 0;
+
+          return window.scrollY / maxScroll;
+        }
+
+        function scrollToPercent(percent, smooth) {
+          const doc = document.documentElement;
+          const maxScroll = doc.scrollHeight - window.innerHeight;
+          const targetY = Math.max(0, Math.min(1, percent)) * maxScroll;
+
+          isSyncing = true;
+
+          window.scrollTo({
+            top: targetY,
+            behavior: smooth ? "smooth" : "auto"
+          });
+
+          setTimeout(function () {
+            isSyncing = false;
+          }, 150);
+        }
+
+        function notifyNavigation() {
+          const currentUrl = location.href;
+
+          if (currentUrl === lastUrl) return;
+
+          lastUrl = currentUrl;
+
+          window.parent.postMessage(
+            {
+              __RMS__: true,
+              type: "CHILD_NAVIGATION",
+              url: currentUrl
+            },
+            "*"
+          );
+        }
+
+        window.addEventListener(
+          "scroll",
+          function () {
+            if (isSyncing) return;
+
+            const now = Date.now();
+
+            if (now - lastSent < 80) return;
+
+            lastSent = now;
+
+            window.parent.postMessage(
+              {
+                __RMS__: true,
+                type: "CHILD_SCROLL",
+                percent: getScrollPercent()
+              },
+              "*"
+            );
+          },
+          { passive: true }
+        );
+
+        window.addEventListener("message", function (event) {
+          const data = event.data || {};
+
+          if (data.__RMS__ === true && data.type === "SCROLL_TO_PERCENT") {
+            scrollToPercent(Number(data.percent || 0), Boolean(data.smooth));
+          }
+
+          if (data.__RMS__ === true && data.type === "NAVIGATE_TO_URL" && data.url) {
+            if (location.href !== data.url) {
+              location.href = data.url;
+            }
+          }
+        });
+
+        const originalPushState = history.pushState;
+        const originalReplaceState = history.replaceState;
+
+        history.pushState = function () {
+          originalPushState.apply(this, arguments);
+          setTimeout(notifyNavigation, 50);
+        };
+
+        history.replaceState = function () {
+          originalReplaceState.apply(this, arguments);
+          setTimeout(notifyNavigation, 50);
+        };
+
+        window.addEventListener("popstate", function () {
+          setTimeout(notifyNavigation, 50);
+        });
+
+        document.addEventListener(
+          "click",
+          function () {
+            setTimeout(notifyNavigation, 250);
+            setTimeout(notifyNavigation, 700);
+          },
+          true
+        );
+      })();
+    </script>
+  </body>
+</html>

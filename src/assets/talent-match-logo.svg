@@ -1,0 +1,16 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="220" rx="44" fill="white"/>
+  <g transform="translate(36 28)">
+    <rect x="14" y="18" width="94" height="122" rx="22" transform="rotate(-13 14 18)" fill="#233160"/>
+    <rect x="112" y="20" width="94" height="122" rx="22" transform="rotate(13 112 20)" fill="#6D2F90"/>
+    <path d="M38 72L100 50L154 65L92 92L38 72Z" fill="white"/>
+    <path d="M64 78V112" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="64" cy="122" r="8" fill="white"/>
+    <path d="M139 61L174 70L161 129" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M131 86H158M126 108H153M121 130H148" stroke="#6D2F90" stroke-width="8" stroke-linecap="round"/>
+    <path d="M42 139C95 175 162 162 197 110" stroke="#233160" stroke-width="13" stroke-linecap="round"/>
+    <path d="M180 116L199 107L198 129" stroke="#233160" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="272" y="123" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="62" font-weight="800" fill="#233160">Talent</text>
+  <text x="488" y="123" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="62" font-weight="800" fill="#6D2F90">Match</text>
+</svg>
