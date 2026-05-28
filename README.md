@@ -6,10 +6,6 @@
 
 **The Talent Match** es una plataforma gamificada de empleabilidad y networking que conecta estudiantes de máster con empresas y reclutadores mediante matching inteligente, perfiles profesionales enriquecidos y seguimiento de candidaturas.
 
-<p align="center">
-  <img src="src/assets/hero.jpg" alt="The Talent Match" width="750"/>
-</p>
-
 ---
 
 ## 🚩 Problema
@@ -25,6 +21,20 @@ Por otro lado, las empresas necesitan identificar talento cualificado de forma m
 **The Talent Match** propone una experiencia digital que transforma la búsqueda de empleo en un proceso más visual, transparente y personalizado.
 
 La plataforma conecta estudiantes, empresas y reclutadores a través de matching inteligente, networking profesional, gamificación y seguimiento de candidaturas.
+
+---
+
+## 🌐 MVP y visualización
+
+El MVP puede visualizarse directamente desde el siguiente enlace:
+
+🔗 **MVP web:**  
+https://www.tmapp.es/
+
+Además, se ha desarrollado una visualización tipo mockup para poder ver la app en distintos dispositivos:
+
+📱 **Mockup responsive:**  
+https://ensoin.com/mockupp/
 
 ---
 
@@ -48,28 +58,16 @@ La plataforma conecta estudiantes, empresas y reclutadores a través de matching
 | 🔎 **Descubrimiento de oportunidades** | Facilita explorar ofertas, empresas y eventos de forma visual |
 | 📌 **Seguimiento de candidaturas** | Muestra el estado de cada aplicación y mejora la transparencia del proceso |
 | 💬 **Feedback de empresas** | Permite recibir información útil tras una candidatura o interacción profesional |
-| 🤝 **Networking inteligente** | Conecta estudiantes, alumni, empresas y reclutadores según afinidad |
-| 🎮 **Gamificación** | Incorpora progreso, logros y retos para motivar la participación |
-
----
-
-## 📸 Vista del prototipo
-
-| Inicio | Matching | Perfil |
-|---|---|---|
-| ![Inicio](src/assets/01-inicio.png) | ![Matching](src/assets/04-matching.png) | ![Perfil](src/assets/05-perfil.png) |
-
-| Candidaturas | Networking | Feedback |
-|---|---|---|
-| ![Candidaturas](src/assets/06-candidaturas.png) | ![Networking](src/assets/07-networking.png) | ![Feedback](src/assets/09-feedback.png) |
+| 🤝 **Networking inteligente** | Conecta estudiantes, alumni, empresas y reclutadores según afinidad profesional |
+| 🎮 **Gamificación** | Incorpora progreso, logros y retos para motivar la participación activa |
 
 ---
 
 ## 🧪 MVP
 
-El MVP consiste en un **prototipo navegable de alta fidelidad**.
+El MVP consiste en un **prototipo navegable de alta fidelidad**, orientado a validar el encaje entre problema, público objetivo y solución antes de un desarrollo técnico completo.
 
-Su objetivo es validar el encaje entre problema, público objetivo y solución antes de un desarrollo técnico completo.
+El proyecto no busca desarrollar una app final completamente funcional, sino representar la experiencia principal del usuario y validar su utilidad mediante una propuesta visual e interactiva.
 
 ---
 
